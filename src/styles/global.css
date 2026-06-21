@@ -6,20 +6,25 @@
 
 :root,
 [data-theme='light'] {
-  --color-bg: #faf9f6;
-  --color-bg-alt: #f0f7f4;
+  --color-bg: #f7f6f2;
+  --color-bg-alt: #efede6;
   --color-surface: #ffffff;
-  --color-text: #1b4332;
-  --color-text-muted: #52796f;
-  --color-primary: #2d6a4f;
-  --color-primary-light: #40916c;
-  --color-primary-dark: #1b4332;
-  --color-accent: #d8f3dc;
-  --color-accent-warm: #fefae0;
-  --color-border: rgba(45, 106, 79, 0.15);
-  --color-shadow: rgba(27, 67, 50, 0.12);
-  --color-error: #c1121f;
-  --color-success: #2d6a4f;
+  --color-text: #2a2f2c;
+  --color-text-muted: #5f6761;
+  --color-primary: #1f7a6a;
+  --color-primary-light: #2f9a86;
+  --color-primary-dark: #155247;
+  --color-accent: #e6f3ef;
+  --color-accent-warm: #faf3e8;
+  --color-border: rgba(42, 47, 44, 0.12);
+  --color-shadow: rgba(21, 82, 71, 0.1);
+  --color-error: #b42318;
+  --color-success: #1f7a6a;
+  --color-sidebar-bg: #155247;
+  --color-sidebar-text: rgba(255, 255, 255, 0.82);
+  --color-hero-from: #123830;
+  --color-hero-via: #1a5248;
+  --color-hero-to: #0f2420;
   --font-body: 'DM Sans', system-ui, sans-serif;
   --font-display: 'Fraunces', Georgia, serif;
   --radius-sm: 8px;
@@ -30,18 +35,23 @@
 }
 
 [data-theme='dark'] {
-  --color-bg: #0d1f17;
-  --color-bg-alt: #142820;
-  --color-surface: #1a2e24;
-  --color-text: #d8f3dc;
-  --color-text-muted: #95d5b2;
-  --color-primary: #52b788;
-  --color-primary-light: #74c69d;
-  --color-primary-dark: #40916c;
-  --color-accent: #1b4332;
-  --color-accent-warm: #2d3a2a;
-  --color-border: rgba(149, 213, 178, 0.15);
-  --color-shadow: rgba(0, 0, 0, 0.35);
+  --color-bg: #141716;
+  --color-bg-alt: #1a1d1c;
+  --color-surface: #222624;
+  --color-text: #e8ebe8;
+  --color-text-muted: #9aa39c;
+  --color-primary: #4db898;
+  --color-primary-light: #6ecfb0;
+  --color-primary-dark: #2f9a86;
+  --color-accent: #1e2b27;
+  --color-accent-warm: #2a2620;
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-shadow: rgba(0, 0, 0, 0.4);
+  --color-sidebar-bg: #181b1a;
+  --color-sidebar-text: rgba(232, 235, 232, 0.78);
+  --color-hero-from: #0f1413;
+  --color-hero-via: #15201d;
+  --color-hero-to: #0c100f;
 }
 
 html {
@@ -232,7 +242,7 @@ textarea {
 .form-alert {
   padding: 1rem;
   border-radius: var(--radius-sm);
-  background: #d8f3dc;
+  background: var(--color-accent);
   color: var(--color-primary-dark);
   margin-bottom: 1rem;
 }
