@@ -24,7 +24,7 @@ export function calculateImc(weightKg: number, heightCm: number): ImcResult | nu
       value,
       classification: 'Peso adequado',
       description: 'Parabéns! Mantenha hábitos saudáveis e acompanhamento regular.',
-      color: '#2d6a4f',
+      color: '#1f7a6a',
     }
   }
   if (value < 30) {
